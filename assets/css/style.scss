@@ -4,8 +4,34 @@
 @import "{{ site.theme }}";
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
 
 body {
 	background-color: #F0F5FD;
 	font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+	color: #39808F;
+}
+
+a:hover {
+	color: #24566D;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+li p {
+	text-align: justify;
+}
+
+.view .fa, .view .fab {
+	font-size: 1.3rem;
 }
